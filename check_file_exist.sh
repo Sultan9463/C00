@@ -1,6 +1,6 @@
 #!/bin/bash
 #entrez le nom du fichier a vérifié
-echo "Entrez le nom du fichier : " 
+echo -n "Entrez le nom du fichier : " 
 read filename
 #verification de l'existence du fichier
 if [ -f "$filename" ]; then
